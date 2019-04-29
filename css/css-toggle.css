@@ -1,0 +1,199 @@
+ul
+{
+list-style: none;
+margin: 0;
+padding: 10px;
+overflow: hidden;
+margin-top: 300px;
+}
+li{
+margin-top: 300px;
+color: white;
+float: left;
+padding: 25px;
+text-decoration: none;
+list-style: none;
+}
+.nav-bar li a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	border-right: 1px solid #fff;
+	margin: 10px 0px;
+	padding: 4px 12px;
+}
+.nav-bar li a:hover{
+	background-color: white;
+	}
+
+nav{
+	background: #6f4e37;
+}
+.search-bar{
+	margin-left: 10px;
+
+}
+.quote{
+	display: block;
+	text-align: center;
+	font-size: 50px;
+	margin-left: -15px;
+	margin-right: -15px;
+	color: #6f4e37;
+	font-family: helvetica;
+	font-style: normal;
+	font-variant: normal;
+	}
+.author-name{
+	font-size: 40px;
+	color: #6f4e37;
+	text-align: center;
+	font-family: pacifico;
+
+}
+.hero{
+	height: 500px;
+	max-width: 100%;
+	margin-top: -20px;
+	width: 100%;
+	}
+.grid_3 img{
+	margin-top: 20px;
+	width: 200px;
+	height: 250px;
+	}
+.grid_3 h6{
+	width: 200px;
+}
+footer{
+	background-color: #6f4e37;
+    text-align:center;
+	width: 100%;
+	height: 100px;
+	top:0;
+	display: inline;
+	}
+.connect-on{
+	text-align: center;
+}
+.social{
+	font-size: 1.75em;
+	text-align: center;
+}
+ .g11 a{
+	color: #6f4e37;
+	font-size: 30px;
+	text-decoration: none;
+	font-family: helvetica;
+}
+.g22 a{
+	color: #6f4e37;
+	font-size: 30px;
+	list-style: none;
+	text-decoration: none;
+	font-family: helvetica;
+}
+
+.g11 a:hover{
+	color: rgb(128,0,0);
+;
+}
+.g22 a:hover{
+	color: rgb(128,0,0);
+}
+.g11 img{
+	margin-bottom: 15px;
+}
+#col-grid{
+	margin-top:30px;
+}
+.connect-on p{
+	font-size: 25px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+@media (min-width: 768px){
+	.nav-bar li{
+		margin-left: 10px;
+	}
+}
+@media (min-width: 1024px){
+	.nav-bar li{
+		margin-left: 2px;
+	}
+}	
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.slide-show{
+	margin: 20px;
+}
+.carousel-inner img{
+	max-width: 100%;
+	display: block;
+	height: 1080PX;
+	width: 1920px;
+	height: auto;
+}
+.Read-Review{
+	margin: 20px;
+}
+.g22{
+	margin-left: 600px;
+}
+.r21{
+	padding-top: 30px;
+}
+.r31{
+	padding-top: 30px;
+
+}
+.r21 img{
+	padding-left: 60px;
+}
+.r31 img{
+	padding-left: 70px;
+}
+.dropdown-menu a{
+	background: #6f4e37;
+}
+/* Style the hamburger menu */
+.icon a{
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+.nav-bar{
+	display: none;
+}
+nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
