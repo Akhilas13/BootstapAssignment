@@ -1,0 +1,88 @@
+/*navigaion-bar background color*/
+nav{
+	background-color: #6f4e37;
+}
+/*carousel*/
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.slide-show{
+	margin: 20px;
+}
+.carousel-inner img{
+	max-width: 100%;
+	display: block;
+	height: 1080PX;
+	width: 1920px;
+	height: auto;
+}
+.books img{
+	margin-top: 20px;
+	width: 350px;
+	height: 300px;
+	}
+.books h6{
+	text-align: justify;
+}
+#countries{
+	padding: 30px;
+	text-align: center;
+}
+#countries img {
+	margin: 0 0 20px;
+}
+#destinations{
+	text-align: center;}
+#countries .article
+{
+   align-items: center;
+}
+#country{
+	padding: 30px;
+text-align: center;
+}
+#country img {
+	margin: 0 0 20px;
+}
+#destinations {
+	text-align: center;
+}
+#country .books {
+   align-items: center;
+}
+.rowSection img
+    {
+        width:250px;
+        margin:auto;
+        padding: 10px;
+        display: flex;
+        height:180px;
+    }
+.rowSection h2
+    {
+    text-align: center;
+    }
+ .tab-content img{
+ 	width: 200px;
+ 	height: 200px;
+ }
+ .tabbable a{
+ 	padding-left: 10px;
+ }
+ .books imgfooter-sec{
+
+ 	width: 300px;
+ 	height: 150px;
+ }
+ .btn bg-secondary{
+ 	padding-bottom: 30px;
+ }
+ .footer-sec{
+background-color: red;
+max-height: 40px;
+}
